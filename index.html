@@ -10,7 +10,8 @@
       content="HTML, CSS, JavaScript, _REPLACE_WITH_KEYWORD_"
     />
     <meta name="author" content="_YOUR_NAME_" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style.css" type="text/css"/>
+    <script src="/main.js" defer></script>
     <!-- TODO: Import Javascript -->
     <title>_REPLACE_SITE_NAME</title>
   </head>
@@ -20,6 +21,10 @@
     </header>
 
     <main class="l-main">
+      <section class="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+      </section>
       <section role="search"></section>
 
       <article role="doc-introduction">
@@ -27,14 +32,14 @@
 
         <p>_REPLACE_INTRODUCTION_</p>
       </article>
-
+      <div class="character-cards"></div>
       <section role="list">
-        <div id="js-list-container">_LOADING_INDICATOR_GOES_HERE_</div>
+        <div id="js-list-container">Loading...</div>
       </section>
     </main>
 
     <footer class="l-footer">
-      <small>Created with ❤️ by _REPLACE_</small>
+      <small>Created with ❤️ by MBN</small>
     </footer>
   </body>
 </html>

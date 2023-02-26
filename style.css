@@ -1,13 +1,44 @@
-/* the props */
-@import "open-props/style";
+*{
+    font-family: sans-serif;
+}
 
-/* optional imports that use the props */
-@import "open-props/normalize";
-@import "animate.css";
+.card {
+    max-width: 450px;
+    padding: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
 
-@import "src/css/variables.css";
-@import "src/css/reset.css";
-@import "src/css/utilities.css";
-@import "src/css/layout.css";
-@import "src/css/form.css";
-@import "src/css/ui.css";
+h4 {
+    color: grey;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+}
+
+.nav-bar {
+    width: 130px;
+    font-size: 20px;
+    background-color: lightgoldenrodyellow;
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.home-btn {
+    background: rgb(11, 91, 133);
+    border: none;
+    width: 100px;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+  }
+  
