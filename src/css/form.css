@@ -41,6 +41,9 @@ input {
   padding: 10px;
   font-size: 16px;
 }
+#message {
+  height: 110px;
+}
 
 button {
   background: rgb(11, 91, 133);

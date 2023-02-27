@@ -14,7 +14,13 @@ This project was bootstrapped with Vite.
 
 ## Report
 
-_ADD_YOUR_REPORT_HERE_
+For this course assignment i chose the Rick and Morty API. For my home page i fetched character data from the Rick and Morty API and displays it on the web page. It selects two HTML elements using `document.querySelector()`, declares a constant url with the API endpoint, and defines an asynchronous `fetchCharacters()` function that fetches the data and constructs an HTML code for each character using template literals. Any errors are handled with a catch block.
+
+For the details page i got character details from the Rick and Morty API using an ID parameter passed in the URL. It selects an HTML element with the class "character-details" using `document.querySelector()`, parses the ID parameter using the URLSearchParams method, and defines an asynchronous `fetchCharacter()` function that fetches the character details from the API using the ID parameter. If its successful, it calls the `createHtml()` function to construct HTML code with the character details and display it on the web page. Any errors are handled with a catch block. Finally, the `fetchCharacter()` function is called to initiate the process.
+
+For my contact page i used the form method i teached in class. I used code that validates form input fields for a contact form using event listeners and regular expressions. It selects several HTML elements using `document.querySelector()` and describes a function `validateForm()` that is called when the form is submitted. The function checks the length of the input values and validates the email format using regular expressions. The event is prevented from its default behavior using `event.preventDefault()`. The `checkLength()` function checks if a value's length is greater than a specified length and returns true or false. The `validateEmail()` function uses a regular expression to check if the email value matches the pattern and returns true or false. Finally, the `validateForm()` function is attached to the form element using an event listener to trigger when the form is submitted.
+
+For the loading indicator i used setTimeout() function to remove the loading message from each of the pages after a delay of 3 seconds. The `loadingContainer.innerHTML`property is set to an empty string to remove the loading message.
 
 ## Getting Started
 
